@@ -1,0 +1,19 @@
+*{
+    border: 1px solid red;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+.container li{
+    /* padding: 5px; */
+    margin: 0px 5px;
+   
+}
+.container ul{
+    list-style-type: none;
+    display: flex;
+    list-style-position: inside;
+    margin: 0px;
+}

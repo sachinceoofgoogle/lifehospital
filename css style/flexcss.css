@@ -1,0 +1,169 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+.nnnv{
+    height: 100%;
+    width: 20%;
+    position: fixed;
+    top: 150px;
+    left: 0;
+    padding-top: 20px;
+    overflow-x: hidden;
+    z-index:1 ;
+    background-color: rgb(245, 245, 245);
+}
+.nnnv a{
+
+    display: block;
+    padding: 20px;
+    
+    margin: 27px;
+    border: 1px solid black;
+    padding: 70px;
+    text-align: center;
+
+    text-decoration: none;
+    font-size: 25px;
+    color: red;
+    background-color: rgb(96, 165, 224);
+    
+}
+
+.nnnv a:hover{
+    background-color: blue;
+    color: white;
+}
+main{
+    display: inline-block;
+    margin-left: 20%;
+    
+    padding: 4px 10px;
+
+}
+h2{
+    padding: 10px 15px 10px 16px;
+   
+    border-bottom-style: solid;
+}
+ img{
+    height: 300px;
+    width: 300px;
+}
+.icon{
+    height: 100px;
+    width: 100px;
+    margin-bottom: 5px;
+}
+.lgh{
+    margin: 5px;
+}
+.lgbtn{
+    
+    padding: 0px 20px;
+    background-color: rgba(113, 242, 229, 0.968);
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+}
+.row1{
+    padding-bottom: 10px;
+}
+.patient{
+    margin-top: 20px;
+}
+.feedback{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.copyright{
+    background-color: rgba(28, 24, 19, 0.908);
+    height: 150px;
+    color: white;
+    display: flex;
+    /* text-align: right; */
+    align-items: center;
+    justify-content: center;
+}
+.about-jeevan p{
+
+    display: inline-block;
+
+}
+.about-jeevan{
+    height: 300px;
+    margin-top: 25px;
+    background-color: white;
+}
+.department{
+    /* margin-bottom: 20px; */
+    height: 350px;
+    background-color: aliceblue;
+}
+.department1{
+    height: 500px;
+    background-color: aliceblue;
+
+}
+.servis{
+    /* padding: 100px; */
+    /* padding: 20px 100px 20px 100px ; */
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: #fff;
+}
+.servis .tooth{
+    width: auto;
+    color: aqua;
+    height: 35px;
+}
+.servis .neurologist{
+    width: auto;
+    height: 35px;
+}
+.servis .cardiology{
+    width: auto;
+    height: 35px;
+}
+.servis .examination{
+    width: auto;
+    height: 35px;
+}
+.servis:hover{
+    background-color: rgba(6, 76, 103, 0.635);
+    color: aliceblue;
+}
+.about-hos p{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+@media screen and (max-width:600px){
+    .nnnv{
+        width: 150px;
+        padding-top: 15px;
+    }
+    main{
+        margin-left: 35%;
+        font-size: 15px;
+
+    }
+    p{
+        display: inline-block;
+    }
+}
+@media screen and (max-width:400px) {
+
+    .nnnv {
+        width: 100px;
+        
+    }
+    .nnnv a{
+        margin-left: 0;
+        padding-left: 50px;
+    }
+    
+}
